@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+header{
+	position:relative;
+	max-width: 100%;
+}
+
+img.logo{
+
+	min-height: 70px;
+	
+}
+
+a.logo{
+	width: 12%;
+	
+	float: left;
+	display: inline-block;
+	padding: 0px 0px 5px 50px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
+a:hover{
+	color:red;
+	transition: 0.6s ease;
+}
+
+nav.page-nav{
+	width: 88%;
+	float:left;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+ul.nav{
+	text-align: center;
+	display: inline-block;
+	padding-right: 100px;
+
+}
+ ul.nav li {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	font-style: sans-serif;
+	font-size: 1.2em;
+	padding: 0px 10px;
+}
+
+
+.numbertext{
+	display:none;
+}
+
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display:none;
+}
+
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.numbertext{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1
+}
